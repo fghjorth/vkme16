@@ -1,8 +1,8 @@
 # Videregående kvantitative metoder i studiet af politisk adfærd
 
-Siden her samler materialer til faget "Videregående kvantitative metoder i studiet af politisk adfærd".
+Dette repository ('repo') samler materialer til faget "Videregående kvantitative metoder i studiet af politisk adfærd".
 
-## Indhold
+### Indhold i dette repo
 
 `slides`: Slides til undervisningsgange
 
@@ -25,7 +25,7 @@ Uge | Dato | Tema | Litteratur
 9 | 31/10 | Eksperimenter II | GG kap 3+4+5
 10 | 7/11 | Difference-in-difference designs | MM kap 5
 11 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4
-12 | 21/11 | Scraping af data fra online-kilder | MRMN kap X
+12 | 21/11 | Scraping af data fra online-kilder | MRMN kap 9
 13 | 28/11 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5
 14 | 5/12 | Visualisering af data | Wickham
 
@@ -40,6 +40,8 @@ GG: Gerber, A. S., & Green, D. P. (2012). *Field experiments: Design, analysis, 
 Imai: Imai, K. (2016): *A First Course in Quantitative Social Science*. Unpublished manuscript.
 
 MM: Angrist, J. D., & Pischke, J. S. (2014). *Mastering 'metrics: The path from cause to effect*. Princeton University Press.
+
+MRMN: Munzert, S., Rubba, C., Meißner, P., & Nyhuis, D. (2014). *Automated data collection with R: A practical guide to web scraping and text mining*. John Wiley & Sons.
 
 ### Artikler
 
