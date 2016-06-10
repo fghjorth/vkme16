@@ -12,22 +12,22 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 
 ## Undervisningsplan
 
-Uge | Dato | Tema | Litteratur
----|---|---|---
-1 | 5/9 | Introduktion til R | Imai kap 1
-2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2
-3 | 19/9 | Regression II: Binære data | GH kap 5
-4 | 26/9 | Modeller til multilevel-data | GH kap 11+12
-5 | 3/10 | Panelmodeller | Plümper et al (2005)
-6 | 10/10 | Introduktion til kausal inferens | Hariri (2012)
-7 | 17/10 | Matching | Justesen & Klemmensen (2014)
-8 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2
-9 | 31/10 | Eksperimenter II | GG kap 3+4+5
-10 | 7/11 | Difference-in-difference designs | MM kap 5
-11 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4
-12 | 21/11 | Scraping af data fra online-kilder | MRMN kap 9
-13 | 28/11 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5
-14 | 5/12 | Visualisering af data | Wickham
+Uge | Dato | Tema | Litteratur | Case
+---|---|---|---|---
+1 | 5/9 | Introduktion til R | Imai kap 1 |
+2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 |
+3 | 19/9 | Regression II: Binære data | GH kap 5 |
+4 | 26/9 | Modeller til multilevel-data | GH kap 11+12 |
+5 | 3/10 | Panelmodeller | Plümper et al (2005) |
+6 | 10/10 | Introduktion til kausal inferens | Hariri (2012) |
+7 | 17/10 | Matching | Justesen & Klemmensen (2014) |
+8 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
+9 | 31/10 | Eksperimenter II | GG kap 3+4+5 |
+10 | 7/11 | Difference-in-difference designs | MM kap 5 |
+11 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
+12 | 21/11 | Scraping af data fra online-kilder | MRMN kap 9 |
+13 | 28/11 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
+14 | 5/12 | Visualisering af data | Wickham |
 
 ## Litteratur
 
@@ -52,3 +52,9 @@ Hariri, J. G. (2012). Kausal inferens i statskundskaben. *Politica*, 44(2), 184-
 Justesen, M. K., & Klemmensen, R. (2014). Sammenligning af sammenlignelige observationer. *Politica*, 46(1), 60-78.
 
 Plümper, T., Troeger, V. E., & Manow, P. (2005). Panel data analysis in comparative politics: Linking method to theory. *European Journal of Political Research*, 44(2), 327-354.
+
+### Cases
+
+Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in postwar British politics. *American Political Science Review*, 103(04), 513-533.
+
+Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
