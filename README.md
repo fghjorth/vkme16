@@ -20,14 +20,15 @@ Uge | Dato | Tema | Litteratur | Case
 4 | 26/9 | Modeller til multilevel-data | GH kap 11+12 |
 5 | 3/10 | Panelmodeller | Plümper et al (2005) |
 6 | 10/10 | Introduktion til kausal inferens | Hariri (2012) |
-7 | 17/10 | Matching | Justesen & Klemmensen (2014) |
-8 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
-9 | 31/10 | Eksperimenter II | GG kap 3+4+5 |
-10 | 7/11 | Difference-in-difference designs | MM kap 5 |
-11 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
-12 | 21/11 | Scraping af data fra online-kilder | MRMN kap 9 |
-13 | 28/11 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
-14 | 5/12 | Visualisering af data | Wickham |
+  | 17/10 | *Efterårsferie* | |
+7 | 24/10 | Matching | Justesen & Klemmensen (2014) |
+8 | 31/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
+9 | 7/11 | Eksperimenter II | GG kap 3+4+5 |
+10 | 14/11 | Difference-in-difference designs | MM kap 5 |
+11 | 21/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
+12 | 28/11 | Scraping af data fra online-kilder | MRMN kap 9 |
+13 | 5/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
+14 | 12/12 | Visualisering af data | Wickham |
 
 ## Litteratur
 
