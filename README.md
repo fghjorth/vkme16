@@ -18,7 +18,7 @@ Uge | Dato | Tema | Litteratur | Case
 2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 |
 3 | 19/9 | Modeller til multilevel-data | GH kap 11+12 |
 4 | 26/9 | Panelmodeller | Plümper et al (2005) |
-5 | 3/10 | Introduktion til kausal inferens | Hariri (2012) |
+5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), GH kap 9 |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) |
   | 17/10 | *Efterårsferie* | |
 7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
