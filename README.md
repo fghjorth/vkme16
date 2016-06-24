@@ -23,12 +23,12 @@ Uge | Dato | Tema | Litteratur | Case
   | 17/10 | *Efterårsferie* | |
 7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 |
-9 | 7/11 | Difference-in-difference designs | MM kap 5 | Gerber et al (2016)
+9 | 7/11 | Instrumentvariable | MM kap 3 |
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
-11 | 21/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
-12 | 28/11 | Scraping af data fra online-kilder | MRMN kap 9 |
-13 | 5/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
-14 | 12/12 | Visualisering af data | Wickham (TBC) |
+11 | 21/11 | Difference-in-difference designs | MM kap 5 | Gerber et al (2016)
+12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
+13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9 |
+14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
 
 <!-- 3 | 19/9 | Regression II: Binære data | GH kap 5 | -->
 
