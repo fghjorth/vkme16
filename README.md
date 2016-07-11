@@ -19,7 +19,7 @@ Uge | Dato | Tema | Litteratur | Case
 3 | 19/9 | Modeller til multilevel-data | GH kap 11+12 |
 4 | 26/9 | Panelmodeller | Plümper et al (2005) |
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), GH kap 9 |
-6 | 10/10 | Matching | Justesen & Klemmensen (2014) |
+6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
 7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 |
@@ -67,3 +67,5 @@ Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in post
 Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
 
 Gerber, A. S., Gruber, J., & Hungerman, D. M. (2016). Does Church Attendance Cause People to Vote? Using Blue Laws’ Repeal to Estimate the Effect of Religiosity on Voter Turnout. *British Journal of Political Science*, 46(03), 1–20.
+
+Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
