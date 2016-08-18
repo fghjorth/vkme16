@@ -21,11 +21,11 @@ Uge | Dato | Tema | Litteratur | Case
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), GH kap 9 |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
-7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber et al (2008)
-8 | 31/10 | Eksperimenter II | GG kap 3+4+5 |
-9 | 7/11 | Instrumentvariable | MM kap 3 |
+7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Bond et al. (2012)
+8 | 31/10 | Eksperimenter II | GG kap 3+4+5 | Gerber & Green (2000)
+9 | 7/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
-11 | 21/11 | Difference-in-difference designs | MM kap 5 | Gerber et al (2016)
+11 | 21/11 | Difference-in-difference designs | MM kap 5 | Enos (2016)
 12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
 13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9 |
 14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
@@ -62,10 +62,16 @@ Varian, H. R. (2014). Big data: New tricks for econometrics. *The Journal of Eco
 
 ### Cases
 
+Arunachalam, R., & Watson, S. (2016). Height, Income and Voting. *British Journal of Political Science*, 46(03), 1–20.
+
+Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298.
+
 Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in postwar British politics. *American Political Science Review*, 103(04), 513-533.
 
-Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
+Enos, R. D. (2016). What the demolition of public housing teaches us about the impact of racial threat on political behavior. *American Journal of Political Science*, 60(1), 123-142.
 
-Gerber, A. S., Gruber, J., & Hungerman, D. M. (2016). Does Church Attendance Cause People to Vote? Using Blue Laws’ Repeal to Estimate the Effect of Religiosity on Voter Turnout. *British Journal of Political Science*, 46(03), 1–20.
+Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls, and direct mail on voter turnout: A field experiment. American Political Science Review, 94(03), 653-663.
+
+<!-- Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. -->
 
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
