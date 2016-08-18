@@ -18,7 +18,7 @@ Uge | Dato | Tema | Litteratur | Case
 2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 |
 3 | 19/9 | Modeller til multilevel-data | GH kap 11+12 |
 4 | 26/9 | Panelmodeller | Plümper et al (2005) |
-5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), GH kap 9 |
+5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
 7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Bond et al. (2012)
@@ -57,6 +57,8 @@ Hariri, J. G. (2012). Kausal inferens i statskundskaben. *Politica*, 44(2), 184-
 Justesen, M. K., & Klemmensen, R. (2014). Sammenligning af sammenlignelige observationer. *Politica*, 46(1), 60-78.
 
 Plümper, T., Troeger, V. E., & Manow, P. (2005). Panel data analysis in comparative politics: Linking method to theory. *European Journal of Political Research*, 44(2), 327-354.
+
+Samii, C. (2016). Causal empiricism in quantitative research. *Journal of Politics* 78(3): 941–955.
 
 Varian, H. R. (2014). Big data: New tricks for econometrics. *The Journal of Economic Perspectives*, 28(2), 3-27.
 
