@@ -1,0 +1,119 @@
+\documentclass[10pt,aspectratio=169]{beamer} 
+\mode<presentation>{}
+%\usepackage{fontspec} %for XeLaTex
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage{verbatim}
+%\usepackage[danish]{babel} 
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage{tabulary}
+\usepackage{varwidth}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{pdfpages}
+\usepackage{subfig}
+\usepackage{natbib}
+\usepackage{soul}
+\usepackage{color}
+\usepackage[font=scriptsize,labelformat=empty]{caption}
+\usetheme[compress]{Ilmenau} 
+\usecolortheme{beaver}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=gray!60}
+
+\definecolor{beaverred}{RGB}{89,21,26}
+\definecolor{beaverred}{RGB}{84,21,18}
+\definecolor{bulletblue}{RGB}{30,50,90}
+\definecolor{lightbulletblue}{RGB}{130,150,190}
+\setbeamercolor{institute in head/foot}{fg=beaverred}
+\setbeamercolor{section in head/foot}{fg=white,bg=beaverred}
+\setbeamercolor{subsection in head/foot}{fg=black,bg=gray!30}
+\setbeamercolor{title}{fg=black,bg=white}
+\setbeamercolor{item}{fg=bulletblue}
+\setbeamercolor{block title}{bg=bulletblue}
+\setbeamercolor{itemize item}{fg=lightbulletblue}
+\setbeamercolor{itemize subitem}{fg=lightbulletblue}
+\setbeamercolor{button}{bg=lightbulletblue,fg=white}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{section in toc}{{\color{lightbulletblue}\inserttocsectionnumber} ~\inserttocsection}
+\setbeamertemplate{enumerate items}[circle]
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{subsection in toc}
+  {\leavevmode\leftskip=2em$\bullet$\hskip1em\inserttocsubsection\par}
+\setbeamertemplate{blocks}[rounded][shadow=false] 
+\makeatletter
+\pgfdeclareverticalshading[lower.bg,upper.bg]{bmb@transition}{200cm}{%
+  color(0pt)=(lower.bg); color(2pt)=(lower.bg); color(4pt)=(lower.bg)}
+  
+\makeatother
+\setbeamerfont{title}{size=\huge}
+
+\usepackage[gen]{eurosym} %euro symbol
+
+%\usepackage{natbib}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,matrix,arrows,calc}
+%\usepackage{verbatim}
+%\usepackage{wasysym}
+
+\title{ 1: Introduktion }
+\subtitle{ Videregående kvantitative metoder i studiet af politisk adfærd }
+% \cite{Sears1997a}, \cite{Davis2004}, \cite{Osborne2011}
+\date{5. september 2016}
+\author[Frederik Hjorth]{Frederik Hjorth \\ \footnotesize
+\href{mailto:fh@ifs.ku.dk}{fh@ifs.ku.dk} \\
+\href{http://fghjorth.github.io}{fghjorth.github.io} \\
+\href{http://twitter.com/fghjorth}{@fghjorth}}
+\institute{Institut for Statskundskab \\ Københavns Universitet}
+
+\AtBeginSection[]
+{\begin{frame}<beamer>
+\tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
+\end{frame}}
+%\AtBeginSubsection[]
+%{\begin{frame}<beamer>
+%\tableofcontents[currentsection,currentsubsection,subsectionstyle=show/shaded/hide]
+%\end{frame}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+%\begin{frame}
+%\tableofcontents[pausesections,hideallsubsections] %this can be useful if ToC is too long
+%\end{frame}
+
+\section{Motivation}
+\subsection{}
+
+\begin{frame}
+Longstanding theme in public opinion: media influence \pause
+\begin{block}{}
+>>The world that we have to deal with politically is out of reach, out of sight, out of mind. It has to be explored, reported, and imagined. Man is no Aristotelian god contemplating all existence at one glance.\pause (...) [Yet] he is learning to see with his mind vast portions of the world that he could never see, touch, smell, hear, or remember. Gradually he makes for himself a trustworthy picture inside his head of the world beyond his reach.<<	
+\end{block} \pause
+\raggedleft -- Lippmann, \textit{Public Opinion}
+\end{frame}
+
+%\begin{frame}
+%x
+%\includegraphics[scale=.5]{../figures/dxsplashes}
+%\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+\scriptsize
+\bibliographystyle{chicago}
+\bibliography{../../thesis/bibliography/library}
+\end{frame}
+
+
+\end{document}
