@@ -15,9 +15,9 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 Uge | Dato | Tema | Litteratur | Case
 ---|---|---|---|---
 1 | 5/9 | Introduktion til R | Imai kap 1 |
-2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 |
-3 | 19/9 | Modeller til multilevel-data | GH kap 11+12 |
-4 | 26/9 | Panelmodeller | Plümper et al (2005) |
+2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 | Gilens & Page (2014)
+3 | 19/9 | Panelmodeller | GH kap 11 | Larsen et al. (2016)
+4 | 26/9 | Multilevelmodeller | GH kap 12 | Dinesen & Sønderskov (2012)
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
@@ -56,8 +56,6 @@ Hariri, J. G. (2012). Kausal inferens i statskundskaben. *Politica*, 44(2), 184-
 
 Justesen, M. K., & Klemmensen, R. (2014). Sammenligning af sammenlignelige observationer. *Politica*, 46(1), 60-78.
 
-Plümper, T., Troeger, V. E., & Manow, P. (2005). Panel data analysis in comparative politics: Linking method to theory. *European Journal of Political Research*, 44(2), 327-354.
-
 Samii, C. (2016). Causal empiricism in quantitative research. *Journal of Politics* 78(3): 941–955.
 
 Varian, H. R. (2014). Big data: New tricks for econometrics. *The Journal of Economic Perspectives*, 28(2), 3-27.
@@ -68,11 +66,15 @@ Arunachalam, R., & Watson, S. (2016). Height, Income and Voting. *British Journa
 
 Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298.
 
+Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294.
+
 Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in postwar British politics. *American Political Science Review*, 103(04), 513-533.
 
 Enos, R. D. (2016). What the demolition of public housing teaches us about the impact of racial threat on political behavior. *American Journal of Political Science*, 60(1), 123-142.
 
 Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls, and direct mail on voter turnout: A field experiment. American Political Science Review, 94(03), 653-663.
+
+Gilens, M., & Page, B. I. (2014). Testing theories of American politics: Elites, interest groups, and average citizens. *Perspectives on politics*, 12(03), 564-581.
 
 <!-- Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. -->
 
