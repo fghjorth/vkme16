@@ -16,8 +16,8 @@ Uge | Dato | Tema | Litteratur | Case
 ---|---|---|---|---
 1 | 5/9 | Introduktion til R | Imai kap 1 |
 2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 | Gilens & Page (2014)
-3 | 19/9 | Panelmodeller | GH kap 11 | Larsen et al. (2016)
-4 | 26/9 | Multilevelmodeller | GH kap 12 | Dinesen & Sønderskov (2012)
+3 | 19/9 | Regression II: Panelmodeller | GH kap 11 | Larsen et al. (2016)
+4 | 26/9 | Regression III: Multilevelmodeller | GH kap 12 | Dinesen & Sønderskov (2012)
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
