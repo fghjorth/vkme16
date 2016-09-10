@@ -34,7 +34,10 @@ Gang | Dato | Tema | Litteratur | Case
 
 ### Tidspunkt(er) og lokale(r)
 
-Undervisningen finder sted mandage 10-12 i lokale 2.2.55. Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42. Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale tbd.
+Undervisningen finder sted mandage 10-12 i lokale 2.2.55. Bemærk dog flg. undtagelser:
+
+- Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42. 
+- Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale tbd.
 
 ## Litteratur
 
