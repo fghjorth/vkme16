@@ -15,9 +15,9 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 Gang | Dato | Tema | Litteratur | Case
 ---|---|---|---|---
 1 | 5/9 | Introduktion til R | Imai kap 1 |
-2 | 12/9 | Regression I: OLS, interaktioner | GH kap 3, MM kap 2 | Gilens & Page (2014)
-3 | 26/9 | Regression II: Panelmodeller | GH kap 11 | Larsen et al. (2016)
-4 | 29/9 | Regression III: Multilevelmodeller | GH kap 12 | Dinesen & Sønderskov (2012)
+2 | 12/9 | Regression I: OLS | GH kap 3, MM kap 2 | Gilens & Page (2014)
+3 | 26/9 | Regression II: Paneldata, interaktioner | GH kap 11 | Larsen et al. (2016)
+4 | 29/9 | Regression III: Multileveldata | GH kap 12 | Dinesen & Sønderskov (2012)
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
@@ -36,7 +36,7 @@ Gang | Dato | Tema | Litteratur | Case
 
 Undervisningen finder sted mandage 10-12 i lokale 2.2.55. Bemærk dog flg. undtagelser:
 
-- Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42. 
+- Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42.
 - Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale tbd.
 
 ## Litteratur
