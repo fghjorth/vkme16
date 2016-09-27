@@ -17,7 +17,7 @@ Gang | Dato | Tema | Litteratur | Case
 1 | 5/9 | Introduktion til R | Imai kap 1 |
 2 | 12/9 | Regression I: OLS | GH kap 3, MM kap 2 | Gilens & Page (2014)
 3 | 26/9 | Regression II: Paneldata | GH kap 11 | Larsen et al. (2016)
-4 | 29/9 | Regression III: Multileveldata, interaktioner | GH kap 12 | Dinesen & Sønderskov (2012)
+4 | 29/9 | Regression III: Multileveldata, interaktioner | GH kap 12 | Berkman & Plutzer (2011)
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
@@ -71,9 +71,11 @@ Varian, H. R. (2014). Big data: New tricks for econometrics. *The Journal of Eco
 
 Arunachalam, R., & Watson, S. (2016). Height, Income and Voting. *British Journal of Political Science*, 46(03), 1–20.
 
+Berkman, M. B., & Plutzer, E. (2011). Defeating creationism in the courtroom, but not in the classroom. *Science*, 331(6016), 404-405.
+
 Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298.
 
-Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294.
+<!-- Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294. -->
 
 Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in postwar British politics. *American Political Science Review*, 103(04), 513-533.
 
