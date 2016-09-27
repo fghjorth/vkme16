@@ -3,31 +3,43 @@ setwd("~/GitHub/vkme16")
 require(haven)
 require(lme4)
 require(dplyr)
-require(magrittr)
 
-nd<-read_dta("data/4_anes.dta")
+bd<-read_dta("data/4_berkman.dta")
 
-ols1<-lm(presvote~stateinc,data=nd)
+# ols-model hvor vi ignorerer multilevelstruktur
+ols1<-lm(hrs_allev~phase1+senior_c+female+evol_course,data=bd)
 summary(ols1)
 
-mlm1<-lmer(presvote~stateinc+(1|state),data=nd)
+## varying intercepts
+
+# multilevel-model
+mlm1<-lmer(hrs_allev~phase1+senior_c+female+evol_course+(1|st_fip),data=bd)
 summary(mlm1)
 
-mlm2<-lmer(presvote~stateinc+incgroup+(1|state),data=nd)
+# hvor stor er ICC?
+icc_mlm1<-3.299/(3.299+71.068)
+
+## varying slopes
+
+# udvidet model: effekten af evol_course faar lov at variere mellem stater
+mlm2<-lmer(hrs_allev~phase1+senior_c+female+evol_course+(1+evol_course|st_fip),data=bd)
 summary(mlm2)
 
-mlm3<-lmer(presvote~incgroup+(1+incgroup|state),data=nd)
+# kig paa varierende koefficienter af evol_course per stat
+coef(mlm2)$st_fip
+
+## interaktion
+
+#model ligesom mlm1, men med interaktion mellem standarder og anciennitet
+mlm3<-lmer(hrs_allev~phase1*senior_c+female+evol_course+(1|st_fip),data=bd)
 summary(mlm3)
 
-statecoefs<-coef(mlm3)$state
-statecoefs$state<-rownames(statecoefs)
+#for at illustrere interaktioner bruger vi 'interplot'-pakken.
+require(interplot)
+interplot(mlm3,var1="phase1",var2="senior_c")
 
-stateincs<-data.frame(tapply(nd$stateinc,nd$state,FUN=median))
-stateincs<-data.frame(state=rownames(stateincs),stateinc=as.numeric(stateincs[,1]))
-
-statecoefs<-left_join(statecoefs,stateincs,by="state")
-  
-stateranefs<-ranef(mlm3)$state
-stateranefs$state<-rownames(stateranefs)
-stateranefs<-left_join(stateranefs,stateincs,by="state")
-plot(stateranefs$stateinc,stateranefs$incgroup)
+#lidt flottere version
+interplot(mlm3,var1="phase1",var2="senior_c") +
+  theme_bw() +
+  geom_hline(yintercept=0,linetype="dashed") +
+  labs(x="Seniority",y="Marginal effect of standards")
