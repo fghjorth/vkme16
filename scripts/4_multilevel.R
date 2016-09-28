@@ -7,8 +7,8 @@ require(dplyr)
 bd<-read_dta("data/4_berkman.dta")
 
 # ols-model hvor vi ignorerer multilevelstruktur
-ols1<-lm(hrs_allev~phase1+senior_c+female+evol_course,data=bd)
-summary(ols1)
+ols<-lm(hrs_allev~phase1+senior_c+female+evol_course,data=bd)
+summary(ols)
 
 ## varying intercepts
 
@@ -18,6 +18,10 @@ summary(mlm1)
 
 # hvor stor er ICC?
 icc_mlm1<-3.299/(3.299+71.068)
+
+# bemærk: phase1, variabel på statsniveau, kan ikke estimeres i en ols med stat-FE
+ols_fe<-lm(hrs_allev~factor(st_fip)+phase1+senior_c+female+evol_course,data=bd)
+summary(ols_fe)
 
 ## varying slopes
 
