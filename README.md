@@ -4,11 +4,13 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 
 ### Indhold i dette repo
 
-`slides`: Slides til undervisningsgange
-
 `data`: Datasæt til brug i undervisningen
 
+`extra`: Ekstramaterialer såsom supplerende slides og præsentationer
+
 `scripts`: R-scripts anvendt i undervisningen
+
+`slides`: Slides til undervisningsgangene
 
 ## Undervisningsplan
 
