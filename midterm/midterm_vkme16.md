@@ -36,7 +36,7 @@ Du bedes besvare flg. opgaver:
 
 1. Det kunne tænkes at sammenhængen mellem indkomst og støtte til medlemskab er stærkere i mere katolske lande. Test hypotesen i en regressionsmodel.
 
-1. Estimer de samme modeller som i pkt. 2, men med respondenter som er matchet på køn, alder, uddannelse, højre/venstre-placering og materialisme/postmaterialisme. Præsenter L1-balancemålet før og efter matching. Hvordan påvirker det koefficienterne? Giv et bud på hvordan forskellen påvirker dine konklusioner om effekten af indkomst. (Tip: kommandoerne kan være meget lang tid om at processere data. Du kan analysere på en stikprøve på 5 pct. af data ved at gemme et nyt dataobjekt med `sample(df,.05)` fra `dplyr`-pakken).
+1. Estimer de samme modeller som i pkt. 2, men med respondenter som er matchet på køn, alder, uddannelse, højre/venstre-placering og materialisme/postmaterialisme. Præsenter L1-balancemålet før og efter matching. Hvordan påvirker det koefficienterne? Giv et bud på hvordan forskellen påvirker dine konklusioner om effekten af indkomst. (Tip: kommandoerne kan være meget lang tid om at processere data. Du kan analysere på en stikprøve på 5 pct. af data ved at gemme et nyt dataobjekt med `sample_frac(df,.05)` fra `dplyr`-pakken).
 
 ## Aflevering
 
