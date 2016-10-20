@@ -23,7 +23,7 @@ Gang | Dato | Tema | Litteratur | Case
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
-7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Bond et al. (2012)
+7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber, Green & Larimer (2008)
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 | Gerber & Green (2000)
 9 | 7/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
@@ -75,7 +75,7 @@ Arunachalam, R., & Watson, S. (2016). Height, Income and Voting. *British Journa
 
 Berkman, M. B., & Plutzer, E. (2011). Defeating creationism in the courtroom, but not in the classroom. *Science*, 331(6016), 404-405.
 
-Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298.
+<!-- Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298. -->
 
 <!-- Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294. -->
 
@@ -87,7 +87,7 @@ Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls
 
 Gilens, M., & Page, B. I. (2014). Testing theories of American politics: Elites, interest groups, and average citizens. *Perspectives on politics*, 12(03), 564-581.
 
-<!-- Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. -->
+Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. 
 
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
 
