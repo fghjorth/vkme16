@@ -25,7 +25,7 @@ Gang | Dato | Tema | Litteratur | Case
   | 17/10 | *Efterårsferie* | |
 7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber, Green & Larimer (2008)
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 | Gerber & Green (2000)
-9 | 7/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
+9 | 10/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
 11 | 21/11 | Difference-in-difference designs | MM kap 5 | Enos (2016)
 12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
@@ -38,8 +38,9 @@ Gang | Dato | Tema | Litteratur | Case
 
 Undervisningen finder sted mandage 10-12 i lokale 1.0.10. Bemærk dog flg. undtagelser:
 
-- Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42.
+- Gang 1 og 7 finder dog sted kl. 16-18, lokale 2.2.42.
 - Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale 2.0.30.
+- Gang 10 finder sted torsdag d. 10. november, lokale 35.3.13
 
 ## Litteratur
 
@@ -87,7 +88,7 @@ Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls
 
 Gilens, M., & Page, B. I. (2014). Testing theories of American politics: Elites, interest groups, and average citizens. *Perspectives on politics*, 12(03), 564-581.
 
-Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. 
+Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
 
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
 
