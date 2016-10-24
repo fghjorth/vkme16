@@ -5,6 +5,32 @@ require(stargazer)
 require(dplyr)
 require(coefplot)
 
+### Randomisering i praksis
+
+#1. lad os sige vi har et datasæt med 100 mennesker. 10 skal have treatment
+
+df<-data.frame(id=1:100)
+N<-nrow(df)
+m<-10
+
+#2. sæt et seed
+set.seed(1234)
+
+#3. tilfældigt tal for hver person
+df$randomnum<-sample(10000,N,replace=F)
+
+#4. sorter iht. det tilfældige tal (arrange() kommer fra dplyr)
+df<-arrange(df,randomnum)
+
+#5. assign treatment til de først m observationer
+df$treat<-0
+df$treat[1:m]<-1
+
+#6. for god ordens skyld: sorter tilbage til oprindelig rækkefølge
+df<-arrange(df,id)
+
+### Gerber, Green & Larimer (2008)
+
 #indlæs data
 ggl<-read_csv("data/7_ggl.csv")
 
