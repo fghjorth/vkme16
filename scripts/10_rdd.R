@@ -24,6 +24,10 @@ summary(rd_tory)
 rd_labour<-RDestimate(ln.net~margin,data=subset(eh,party=="labour"),bw=.15,kernel="rectangular")
 summary(rd_labour)
 
+#mccrary test for sorting
+mccrarytest<-DCdensity(eh$margin,bw=.15,ext.out=F)
+#p-værdien skal helst ikke være sig (!)
+
 #visuel RD
 ggplot(eh,aes(margin,ln.net)) +
   geom_point(alpha=.3) + #punkter
