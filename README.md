@@ -4,11 +4,13 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 
 ### Indhold i dette repo
 
-`slides`: Slides til undervisningsgange
-
 `data`: Datasæt til brug i undervisningen
 
+`extra`: Ekstramaterialer såsom supplerende slides og præsentationer
+
 `scripts`: R-scripts anvendt i undervisningen
+
+`slides`: Slides til undervisningsgangene
 
 ## Undervisningsplan
 
@@ -16,14 +18,14 @@ Gang | Dato | Tema | Litteratur | Case
 ---|---|---|---|---
 1 | 5/9 | Introduktion til R | Imai kap 1 |
 2 | 12/9 | Regression I: OLS | GH kap 3, MM kap 2 | Gilens & Page (2014)
-3 | 26/9 | Regression II: Paneldata, interaktioner | GH kap 11 | Larsen et al. (2016)
-4 | 29/9 | Regression III: Multileveldata | GH kap 12 | Dinesen & Sønderskov (2012)
+3 | 26/9 | Regression II: Paneldata | GH kap 11 | Larsen et al. (2016)
+4 | 29/9 | Regression III: Multileveldata, interaktioner | GH kap 12 | Berkman & Plutzer (2011)
 5 | 3/10 | Introduktion til kausal inferens | Hariri (2012), Samii (2016) |
 6 | 10/10 | Matching | Justesen & Klemmensen (2014) | Ladd & Lenz (2009)
   | 17/10 | *Efterårsferie* | |
-7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Bond et al. (2012)
+7 | 24/10 | Eksperimenter I | MM kap 1, GG kap 1+2 | Gerber, Green & Larimer (2008)
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 | Gerber & Green (2000)
-9 | 7/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
+9 | 14/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
 11 | 21/11 | Difference-in-difference designs | MM kap 5 | Enos (2016)
 12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
@@ -34,10 +36,11 @@ Gang | Dato | Tema | Litteratur | Case
 
 ### Tidspunkt(er) og lokale(r)
 
-Undervisningen finder sted mandage 10-12 i lokale 2.2.55. Bemærk dog flg. undtagelser:
+Undervisningen finder sted mandage 10-12 i lokale 1.0.10. Bemærk dog flg. undtagelser:
 
-- Gang 1 og 7 finder dog sted kl. 16-18 i lokale 2.2.42.
-- Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale tbd.
+- Gang 1 og 7 finder dog sted kl. 16-18, lokale 2.2.42.
+- Gang 4 finder sted torsdag d. 29. september kl. 12-14, lokale 2.0.30.
+- Gang 10 finder sted mandag d. 14. november kl. 13-15, lokale 2.1.02
 
 ## Litteratur
 
@@ -71,9 +74,11 @@ Varian, H. R. (2014). Big data: New tricks for econometrics. *The Journal of Eco
 
 Arunachalam, R., & Watson, S. (2016). Height, Income and Voting. *British Journal of Political Science*, 46(03), 1–20.
 
-Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298.
+Berkman, M. B., & Plutzer, E. (2011). Defeating creationism in the courtroom, but not in the classroom. *Science*, 331(6016), 404-405.
 
-Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294.
+<!-- Bond, R. M., Fariss, C. J., Jones, J. J., Kramer, A. D., Marlow, C., Settle, J. E., & Fowler, J. H. (2012). A 61-million-person experiment in social influence and political mobilization. *Nature*, 489(7415), 295-298. -->
+
+<!-- Dinesen, P. T., & Sønderskov, K. M. (2012). Trust in a time of increasing diversity: On the relationship between ethnic heterogeneity and social trust in Denmark from 1979 until today. *Scandinavian Political Studies*, 35(4), 273-294. -->
 
 Eggers, A. C., & Hainmueller, J. (2009). MPs for sale? Returns to office in postwar British politics. *American Political Science Review*, 103(04), 513-533.
 
@@ -83,7 +88,7 @@ Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls
 
 Gilens, M., & Page, B. I. (2014). Testing theories of American politics: Elites, interest groups, and average citizens. *Perspectives on politics*, 12(03), 564-581.
 
-<!-- Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48. -->
+Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
 
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
 
