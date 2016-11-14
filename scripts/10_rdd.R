@@ -34,5 +34,5 @@ ggplot(eh,aes(margin,ln.net)) +
   geom_vline(xintercept=0,linetype="dashed") + #lodret linje v cutoff
   theme_bw() + #enklere design
   facet_grid(party~.) + #opdelt på parti
-  geom_smooth(data=subset(eh,margin<0),aes(x=margin,y=ln.net),method="lm",alpha=0,color="red") + #linje for valg-tabere
-  geom_smooth(data=subset(eh,margin>0),aes(x=margin,y=ln.net),method="lm",alpha=0,color="red")   #linje for valg-vindere
+  geom_smooth(data=subset(eh,margin<0),aes(x=margin,y=ln.net),method="lm",alpha=0.2,color="red") + #linje for valg-tabere
+  geom_smooth(data=subset(eh,margin>0),aes(x=margin,y=ln.net),method="lm",alpha=0.2,color="red")   #linje for valg-vindere
