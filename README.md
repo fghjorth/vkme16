@@ -6,7 +6,11 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 
 `data`: Datasæt til brug i undervisningen
 
+`examples`: Kodeeksempler til illustration af forskellige funktioner
+
 `extra`: Ekstramaterialer såsom supplerende slides og præsentationer
+
+`midterm`: Materialer ifm. fagets midterm-opgave
 
 `scripts`: R-scripts anvendt i undervisningen
 
