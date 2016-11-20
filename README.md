@@ -31,7 +31,7 @@ Gang | Dato | Tema | Litteratur | Case
 8 | 31/10 | Eksperimenter II | GG kap 3+4+5 | Gerber & Green (2000)
 9 | 14/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
-11 | 21/11 | Difference-in-difference designs | MM kap 5 | Enos (2016)
+11 | 21/11 | Difference-in-differences | MM kap 5 | Enos (2016)
 12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
 13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9 |
 14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
