@@ -3,6 +3,21 @@ setwd("~/GitHub/vkme16")
 require(readr)
 require(dplyr)
 require(tidyr)
+require(magrittr)
+
+#eksempel på brug af gather()
+df_wide<-data.frame(unit=c("a","b","c"),yt1=c(1,3,6),yt2=c(2,6,7))
+df_long<-gather(df_wide,year,outcome,yt1:yt2)
+
+#eksempel på brug af piping
+var<-c("1","3","2","4","1","99","3")
+
+logvar1<-log(ifelse(as.numeric(var)==99,NA,as.numeric(var)))
+
+logvar2 <- var %>% 
+  as.numeric() %>% 
+  ifelse(.==99,NA,.) %>% 
+  log()
 
 ed<-read_csv("data/11_enos.csv")
 
