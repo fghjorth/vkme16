@@ -62,11 +62,10 @@ MRMN: Munzert, S., Rubba, C., Meißner, P., & Nyhuis, D. (2014). *Automated data
 
 ### Artikler
 
-<<<<<<< HEAD
-Benoit, K., & Nulty, P. (2016) [Getting Started with quanteda](https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html)
-=======
+
 Athey, S., & Imbens, G. (2016). The State of Applied Econometrics-Causality and Policy Evaluation. *arXiv preprint* arXiv:1607.00699.
->>>>>>> origin/master
+
+Benoit, K., & Nulty, P. (2016) [Getting Started with quanteda](https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html)
 
 Grimmer, J. (2015). We are all social scientists now: how big data, machine learning, and causal inference work together. *PS: Political Science & Politics*, 48(01), 80-83.
 
