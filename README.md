@@ -33,8 +33,8 @@ Gang | Dato | Tema | Litteratur | Case
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
 11 | 21/11 | Difference-in-differences | MM kap 5 | Enos (2016)
 12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
-13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9 |
-14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5 |
+13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9+14 |
+14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5, Benoit & Nulty (2016) | Hjorth et al. (2015)
 
 <!-- 3 | 19/9 | Regression II: Binære data | GH kap 5 | -->
 
@@ -61,6 +61,8 @@ MM: Angrist, J. D., & Pischke, J. S. (2014). *Mastering 'metrics: The path from 
 MRMN: Munzert, S., Rubba, C., Meißner, P., & Nyhuis, D. (2014). *Automated data collection with R: A practical guide to web scraping and text mining*. John Wiley & Sons.
 
 ### Artikler
+
+Benoit, K., & Nulty, P. (2016) [Getting Started with quanteda](https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html)
 
 Grimmer, J. (2015). We are all social scientists now: how big data, machine learning, and causal inference work together. *PS: Political Science & Politics*, 48(01), 80-83.
 
@@ -93,6 +95,8 @@ Gerber, A. S., & Green, D. P. (2000). The effects of canvassing, telephone calls
 Gilens, M., & Page, B. I. (2014). Testing theories of American politics: Elites, interest groups, and average citizens. *Perspectives on politics*, 12(03), 564-581.
 
 Gerber, A. S., Green, D. P., & Larimer, C. W. (2008). Social pressure and voter turnout: Evidence from a large-scale field experiment. *American Political Science Review*, 102(01), 33-48.
+
+Hjorth, F., Klemmensen, R., Hobolt, S., Hansen, M. E., & Kurrild-Klitgaard, P. (2015). Computers, coders, and voters: Comparing automated methods for estimating party positions. *Research & Politics*, 2(2).
 
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
 
