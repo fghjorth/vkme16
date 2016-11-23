@@ -32,7 +32,7 @@ Gang | Dato | Tema | Litteratur | Case
 9 | 14/11 | Instrumentvariable | MM kap 3 | Arunachalam & Watson (2016)
 10 | 14/11 | Regressionsdiskontinuitetsdesigns | MM kap 4 | Eggers & Hainmueller (2009)
 11 | 21/11 | Difference-in-differences | MM kap 5 | Enos (2016)
-12 | 28/11 | 'Big data' og maskinlæring | Grimmer (2015), Varian (2014) |
+12 | 28/11 | 'Big data' og maskinlæring | Harford (2014), Grimmer (2015), Varian (2014), Athey & Imbens (2016) |
 13 | 5/12 | Scraping af data fra online-kilder | MRMN kap 9+14 |
 14 | 12/12 | Tekst som data | Grimmer & Stewart (2013), Imai kap 5, Benoit & Nulty (2016) | Hjorth et al. (2015)
 
@@ -62,11 +62,17 @@ MRMN: Munzert, S., Rubba, C., Meißner, P., & Nyhuis, D. (2014). *Automated data
 
 ### Artikler
 
+<<<<<<< HEAD
 Benoit, K., & Nulty, P. (2016) [Getting Started with quanteda](https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html)
+=======
+Athey, S., & Imbens, G. (2016). The State of Applied Econometrics-Causality and Policy Evaluation. *arXiv preprint* arXiv:1607.00699.
+>>>>>>> origin/master
 
 Grimmer, J. (2015). We are all social scientists now: how big data, machine learning, and causal inference work together. *PS: Political Science & Politics*, 48(01), 80-83.
 
 Grimmer, J., & Stewart, B. M. (2013). Text as data: The promise and pitfalls of automatic content analysis methods for political texts. *Political Analysis*, 21(3), 267-297.
+
+Harford, T. (2014). Big data: A big mistake?. *Significance*, 11(5), 14-19. Chicago
 
 Hariri, J. G. (2012). Kausal inferens i statskundskaben. *Politica*, 44(2), 184-201.
 
