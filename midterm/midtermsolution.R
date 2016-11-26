@@ -33,6 +33,8 @@ ols2<-lm(membrshp~income+age+sex+educ,data=ebtest)
 ols3<-lm(membrshp~income+age+sex+educ+lrs,data=ebtest)
 stargazer(ols1,ols2,ols3,type="text")
 
+saveRDS(ebtest,"midtermdata.rds")
+
 #4
 ols4<-lm(membrshp~income*educ+age+sex+lrs,data=ebtest)
 stargazer(ols1,ols2,ols3,ols4,type="text")
