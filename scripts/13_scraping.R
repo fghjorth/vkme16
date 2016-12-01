@@ -3,6 +3,8 @@ setwd("~/GitHub/vkme16/")
 require(rvest)
 require(dplyr)
 require(magrittr)
+require(stringr)
+require(ggplot2)
 
 ###
 # DEL 1: SCREEN SCRAPING
@@ -20,10 +22,10 @@ kr<-html_nodes(kr,"table")
 kr
 
 #tabellerne fra 14-16 er vist dem vi skal bruge
-#her bruger vi extract2() fra magrittr til at vælge de rigtige
+#her bruger vi extract2() fra magrittr til at vælge de rigtige (extract2 vælger items fra lister)
 kr1<-extract2(kr,14)
 
-#gemmer som tabel
+#gemmer som tabel (fill=T sørger for at tomme celler bare sættes som missing)
 kr1<-html_table(kr1,fill=T)
 
 #vi gemmer de andre på samme måde og samler
@@ -37,12 +39,23 @@ kr_all<-bind_rows(kr1,kr2,kr3)
 kr_all<-filter(kr_all,Navn!="Navn")
 
 #det hele kan gøres meget mere kompakt med piping
-#træk data ud fra wiki-tabellen
-kr<-krurl %>% 
+kr1<-krurl %>% 
   read_html() %>% 
   html_nodes("table") %>% 
   extract2(14) %>% 
-  html_table()
+  html_table(.,fill=T)
+
+#lidt ekstra trylleryl: fødsels/dødsår
+names(kr_all)[3:5]<-c("Foedt","Tiltraadt","Doed")
+kr_all<-kr_all %>% 
+  mutate(byear=str_extract(Foedt,"\\d{3,}")) %>% #udtrækker tal med 3 eller flere cifre
+  mutate(dyear=str_extract(Doed,"\\d{3,}")) %>% 
+  mutate(number=row_number(),
+         yrs=as.numeric(dyear)-as.numeric(byear))
+
+#plot
+ggplot(kr_all,aes(number,yrs)) +
+  geom_point()
 
 ###
 # DEL 2: API'ER
