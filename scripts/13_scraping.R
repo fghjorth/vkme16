@@ -16,21 +16,23 @@ krurl<-"https://da.wikipedia.org/wiki/Konger%C3%A6kken"
 kr<-read_html(krurl)
 
 #så udtrækker vi alle tabeller fra siden
-kr<-html_nodes(kr,"table")
+kr_tables<-html_nodes(kr,"table")
+kr_tables
 
-#lad os kigge på hvad vi har nu
+#det var mange tabeller :-/ ved at bruge CSS-selectoren 'wikitable' kan vi fokusere på de interessante tabeller (bemærk punktummet)
+kr<-html_nodes(kr,".wikitable")
 kr
 
-#tabellerne fra 14-16 er vist dem vi skal bruge
+#tabellerne fra 1-3 er vist dem vi skal bruge
 #her bruger vi extract2() fra magrittr til at vælge de rigtige (extract2 vælger items fra lister)
-kr1<-extract2(kr,14)
+kr1<-extract2(kr,1)
 
 #gemmer som tabel (fill=T sørger for at tomme celler bare sættes som missing)
 kr1<-html_table(kr1,fill=T)
 
 #vi gemmer de andre på samme måde og samler
-kr2<-html_table(extract2(kr,15),fill=T)
-kr3<-html_table(extract2(kr,16),fill=T)
+kr2<-html_table(extract2(kr,2),fill=T)
+kr3<-html_table(extract2(kr,3),fill=T)
 
 #samler alle tre
 kr_all<-bind_rows(kr1,kr2,kr3)
@@ -41,8 +43,8 @@ kr_all<-filter(kr_all,Navn!="Navn")
 #det hele kan gøres meget mere kompakt med piping
 kr1<-krurl %>% 
   read_html() %>% 
-  html_nodes("table") %>% 
-  extract2(14) %>% 
+  html_nodes(".wikitable") %>% 
+  extract2(1) %>% 
   html_table(.,fill=T)
 
 #lidt ekstra trylleryl: fødsels/dødsår
@@ -66,11 +68,23 @@ key<-"xxx"
 secret<-"yyy"  
 setup_twitter_oauth(key,secret)
 
+#info om udvalgt twitter-bruger: LLR
 llr<-getUser("larsloekke")
 
+#info om LLR
 str(llr)
 
-llr$getFavorites(n=10)
+#hvem følger LLR? 
+llr_followers<-llr$getFollowerIDs(n=1000)
 
-# streaming
-searchTwitter("regeringsgrundlag",n=10)
+#find LLR's seneste 200 tweets
+llrtweets<-userTimeline(llr,n=200)
+
+#gem som df
+llrtweetsdf<-twListToDF(llrtweets)
+
+#kig på tweets efter emneord
+rgtweets<-searchTwitter("regeringsgrundlag",n=100)
+
+#gem som df
+rgtweetsdf<-twListToDF(rgtweets)
