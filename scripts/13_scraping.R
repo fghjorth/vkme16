@@ -71,3 +71,6 @@ llr<-getUser("larsloekke")
 str(llr)
 
 llr$getFavorites(n=10)
+
+# streaming
+searchTwitter("regeringsgrundlag",n=10)
