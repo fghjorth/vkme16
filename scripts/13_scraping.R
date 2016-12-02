@@ -60,3 +60,14 @@ ggplot(kr_all,aes(number,yrs)) +
 ###
 # DEL 2: API'ER
 ###
+
+require(twitteR)
+key<-"xxx"
+secret<-"yyy"  
+setup_twitter_oauth(key,secret)
+
+llr<-getUser("larsloekke")
+
+str(llr)
+
+llr$getFavorites(n=10)
