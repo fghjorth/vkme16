@@ -10,7 +10,7 @@ vur<-vu %>%
             hinc=convert_to_NA(as.numeric(V327),88:99),
             age=V367,
             female=V7-1,
-            edu1=V41,
+            edu1=V341,
             edu2=V342,
             muninum=V363,
             region=V385,
