@@ -4,17 +4,19 @@ Dette repository ('repo') samler materialer til faget "Videregående kvantitativ
 
 ### Indhold i dette repo
 
-`data`: Datasæt til brug i undervisningen
+`data`: datasæt til brug i undervisningen
 
-`examples`: Kodeeksempler til illustration af forskellige funktioner
+`examples`: kodeeksempler til illustration af forskellige funktioner
 
-`extra`: Ekstramaterialer såsom supplerende slides og præsentationer
+`extra`: ekstramaterialer såsom supplerende slides og præsentationer
 
-`midterm`: Materialer ifm. fagets midterm-opgave
+`midterm`: materialer ifm. fagets midterm-opgave
 
 `scripts`: R-scripts anvendt i undervisningen
 
-`slides`: Slides til undervisningsgangene
+`slides`: slides til undervisningsgangene
+
+`workshop`: materialer ifm. fagets workshop
 
 ## Undervisningsplan
 
@@ -106,3 +108,9 @@ Hjorth, F., Klemmensen, R., Hobolt, S., Hansen, M. E., & Kurrild-Klitgaard, P. (
 Ladd, J. M., & Lenz, G. S. (2009). Exploiting a rare communication shift to document the persuasive power of the news media. *American Journal of Political Science*, 53(2), 394-410.
 
 Larsen, M. V., Hjorth, F., Dinesen, P. & Sønderskov, K. M. (2016). Housing Bubbles and Support for Incumbents. *Annual Meeting of the American Political Science Association*.
+
+### Supplerende læsning
+
+Kleinberg, J., Ludwig, J., Mullainathan, S. (2016). [A Guide to Solving Social Problems with Machine Learning](https://hbr.org/2016/12/a-guide-to-solving-social-problems-with-machine-learning). *Harvard Business Review*.
+
+Stegmueller, D. (2013). How many countries for multilevel modeling? A comparison of frequentist and Bayesian approaches. *American Journal of Political Science*, 57(3), 748-761.
