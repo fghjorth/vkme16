@@ -31,3 +31,12 @@ lasso<-glmnet(x=ebinputmat,y=eb2$membrshp01,family="binomial")
 #plot lasso koefficienter som funktion af tuningparameteren lambda
 plot(lasso,xvar="lambda",label=T)
 lasso$beta@Dimnames[[1]] #navne der svarer til labels på plottet
+
+#prediktion: lad os prøve at forudsige en holdningen for en typisk VKM-studerende
+#dvs. ung, høj udd, semi-venstreorienteret
+vkmdat<-as.matrix(data.frame(age=26,sex=1,educ=10,income=4,lrs=3,matpmat=4))
+#predict() er ligesom normalt, men vi skal angive 's' for tuning-parameteren, dvs. lambda
+#jeg vælger en lav værdi, for variablene er valgt teoretisk => ikke så bange for overfitting
+#type="response" er det man angiver i predict() når man skal have forudsagt ssh fra en model
+predict(lasso,newx=vkmdat,s=.001,type="response")
+#70 pct. ssh for pro-EU... sounds about right 
