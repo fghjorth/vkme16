@@ -15,8 +15,9 @@ require(ggplot2)
 speechfilenames<-list.files()
 
 #lav et tekstkorpus
-royalcorpus<-corpus(textfile(speechfilenames))
+royalcorpus<-corpus(textfile(speechfilenames,encoding="ISO-8859-1"))
 #textfile() sikrer at den læser teksterne og ikke bare filnavnene
+#bemærk: fixet bogstaver ved at specificere encoding ved import
 
 #summary af teksterne i korpusset
 summary(royalcorpus)
