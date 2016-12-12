@@ -58,7 +58,8 @@ refscores<-c(rep(NA,length(1946:1974)),
 #kør wordscores
 royal_ws<-textmodel(royaldfm2,refscores,model="wordscores")
 
-summary(royal_ws)
+#data frame med wordscores-estimater pr dokument
+royal_ws_ests<-predict(royal_ws)@textscores
 
 ####
 # EKSTRA
